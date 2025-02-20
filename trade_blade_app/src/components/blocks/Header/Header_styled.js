@@ -17,10 +17,6 @@ export const style = {
     fontWeight: "500",
     textTransform: "uppercase",
   },
-  buttonBox: {
-    maxWidth: "146px",
-    width: "100%",
-  },
   entryButton: {
     width: "100%",
     height: "42px",

@@ -1,16 +1,15 @@
 import { Header } from "./components/blocks/Header/Header.jsx";
-import { createTheme, ThemeProvider } from "@mui/material";
+import "./App.css";
+import { MainInfo } from "./components/blocks/MainInfo/MainInfo.jsx";
+import { StatisticBlock } from "./components/blocks/StatisticBlock/StatisticBlock.jsx";
 
 function App() {
-  const theme = createTheme({
-    typography: {
-      fontFamily: "'IBM Plex Sans', sans-serif",
-    },
-  });
   return (
-    <div>
-      <ThemeProvider theme={theme}>{<Header />}</ThemeProvider>
-    </div>
+    <>
+      <Header />
+      <MainInfo />
+      <StatisticBlock />
+    </>
   );
 }
 
